@@ -1,0 +1,216 @@
+
+Purpose     : Extract data for Netflix
+
+        #####################     Change log   ###############################
+        ##------------------------------------------------------------------##
+        ##  Author              ##Date                ##Current Version     ##
+        ##------------------------------------------------------------------##
+        ## Moody's Analytics    ##15th July,2018      ##V1.0                ##
+        ##------------------------------------------------------------------##
+        ######################################################################
+        Date                   Version     Author      Description
+        15th July,2018       v 0.1       Deepak        Initial Code
+
+
+16/07/2018 02:37:11 PM- root         - INFO     - Starting the program execution
+
+16/07/2018 02:37:11 PM- urllib3.connectionpool - DEBUG    - Starting new HTTPS connection (1): www.peeringdb.com
+16/07/2018 02:37:12 PM- urllib3.connectionpool - DEBUG    - https://www.peeringdb.com:443 "GET /net/457 HTTP/1.1" 200 306354
+16/07/2018 02:37:13 PM- root         - INFO     - Data Saved to Local Drive for IP Prefix Count Data
+16/07/2018 02:37:13 PM- root         - INFO     - Creating Unique Key
+16/07/2018 02:37:13 PM- root         - INFO     - Inserting Data to DB
+16/07/2018 02:37:14 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 0
+16/07/2018 02:37:14 PM- root         - INFO     - Data uploaded to DB
+16/07/2018 02:37:14 PM- root         - INFO     - Data Saved to Local Drive for Public Peering Data
+16/07/2018 02:37:14 PM- root         - INFO     - Creating Unique Key
+16/07/2018 02:37:14 PM- root         - INFO     - Inserting Data to DB
+16/07/2018 02:37:15 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 0
+16/07/2018 02:37:16 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 1
+16/07/2018 02:37:17 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 2
+16/07/2018 02:37:18 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 3
+16/07/2018 02:37:19 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 4
+16/07/2018 02:37:20 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 5
+16/07/2018 02:37:22 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 6
+16/07/2018 02:37:23 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 7
+16/07/2018 02:37:24 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 8
+16/07/2018 02:37:25 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 9
+16/07/2018 02:37:26 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 10
+16/07/2018 02:37:27 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 11
+16/07/2018 02:37:28 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 12
+16/07/2018 02:37:29 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 13
+16/07/2018 02:37:31 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 14
+16/07/2018 02:37:32 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 15
+16/07/2018 02:37:33 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 16
+16/07/2018 02:37:35 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 17
+16/07/2018 02:37:36 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 18
+16/07/2018 02:37:37 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 19
+16/07/2018 02:37:38 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 20
+16/07/2018 02:37:39 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 21
+16/07/2018 02:37:40 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 22
+16/07/2018 02:37:41 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 23
+16/07/2018 02:37:42 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 24
+16/07/2018 02:37:43 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 25
+16/07/2018 02:37:45 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 26
+16/07/2018 02:37:46 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 27
+16/07/2018 02:37:47 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 28
+16/07/2018 02:37:48 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 29
+16/07/2018 02:37:49 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 30
+16/07/2018 02:37:50 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 31
+16/07/2018 02:37:51 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 32
+16/07/2018 02:37:52 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 33
+16/07/2018 02:37:54 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 34
+16/07/2018 02:37:55 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 35
+16/07/2018 02:37:56 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 36
+16/07/2018 02:37:57 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 37
+16/07/2018 02:37:58 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 38
+16/07/2018 02:37:59 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 39
+16/07/2018 02:38:00 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 40
+16/07/2018 02:38:01 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 41
+16/07/2018 02:38:03 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 42
+16/07/2018 02:38:04 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 43
+16/07/2018 02:38:05 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 44
+16/07/2018 02:38:06 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 45
+16/07/2018 02:38:07 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 46
+16/07/2018 02:38:08 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 47
+16/07/2018 02:38:09 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 48
+16/07/2018 02:38:10 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 49
+16/07/2018 02:38:12 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 50
+16/07/2018 02:38:13 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 51
+16/07/2018 02:38:14 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 52
+16/07/2018 02:38:15 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 53
+16/07/2018 02:38:16 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 54
+16/07/2018 02:38:17 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 55
+16/07/2018 02:38:18 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 56
+16/07/2018 02:38:19 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 57
+16/07/2018 02:38:20 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 58
+16/07/2018 02:38:22 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 59
+16/07/2018 02:38:23 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 60
+16/07/2018 02:38:24 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 61
+16/07/2018 02:38:25 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 62
+16/07/2018 02:38:26 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 63
+16/07/2018 02:38:27 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 64
+16/07/2018 02:38:28 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 65
+16/07/2018 02:38:29 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 66
+16/07/2018 02:38:31 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 67
+16/07/2018 02:38:32 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 68
+16/07/2018 02:38:33 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 69
+16/07/2018 02:38:34 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 70
+16/07/2018 02:38:35 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 71
+16/07/2018 02:38:36 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 72
+16/07/2018 02:38:37 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 73
+16/07/2018 02:38:38 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 74
+16/07/2018 02:38:40 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 75
+16/07/2018 02:38:41 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 76
+16/07/2018 02:38:42 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 77
+16/07/2018 02:38:43 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 78
+16/07/2018 02:38:44 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 79
+16/07/2018 02:38:45 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 80
+16/07/2018 02:38:46 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 81
+16/07/2018 02:38:47 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 82
+16/07/2018 02:38:48 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 83
+16/07/2018 02:38:50 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 84
+16/07/2018 02:38:51 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 85
+16/07/2018 02:38:52 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 86
+16/07/2018 02:38:53 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 87
+16/07/2018 02:38:54 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 88
+16/07/2018 02:38:55 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 89
+16/07/2018 02:38:57 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 90
+16/07/2018 02:38:59 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 91
+16/07/2018 02:39:01 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 92
+16/07/2018 02:39:02 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 93
+16/07/2018 02:39:04 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 94
+16/07/2018 02:39:08 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 95
+16/07/2018 02:39:09 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 96
+16/07/2018 02:39:11 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 97
+16/07/2018 02:39:12 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 98
+16/07/2018 02:39:13 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 99
+16/07/2018 02:39:14 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 100
+16/07/2018 02:39:15 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 101
+16/07/2018 02:39:17 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 102
+16/07/2018 02:39:18 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 103
+16/07/2018 02:39:21 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 104
+16/07/2018 02:39:22 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 105
+16/07/2018 02:39:23 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 106
+16/07/2018 02:39:25 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 107
+16/07/2018 02:39:26 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 108
+16/07/2018 02:39:27 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 109
+16/07/2018 02:39:29 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 110
+16/07/2018 02:39:30 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 111
+16/07/2018 02:39:31 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 112
+16/07/2018 02:39:32 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 113
+16/07/2018 02:39:33 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 114
+16/07/2018 02:39:34 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 115
+16/07/2018 02:39:35 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 116
+16/07/2018 02:39:37 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 117
+16/07/2018 02:39:38 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 118
+16/07/2018 02:39:39 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 119
+16/07/2018 02:39:40 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 120
+16/07/2018 02:39:41 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 121
+16/07/2018 02:39:41 PM- root         - INFO     - Data uploaded to DB
+16/07/2018 02:39:41 PM- root         - INFO     - Data Saved to Local Drive for Private Peering Data
+16/07/2018 02:39:41 PM- root         - INFO     - Creating Unique Key
+16/07/2018 02:39:41 PM- root         - INFO     - Inserting Data to DB
+16/07/2018 02:39:42 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 0
+16/07/2018 02:39:43 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 1
+16/07/2018 02:39:45 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 2
+16/07/2018 02:39:46 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 3
+16/07/2018 02:39:47 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 4
+16/07/2018 02:39:49 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 5
+16/07/2018 02:39:51 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 6
+16/07/2018 02:39:52 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 7
+16/07/2018 02:39:53 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 8
+16/07/2018 02:39:54 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 9
+16/07/2018 02:39:56 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 10
+16/07/2018 02:39:57 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 11
+16/07/2018 02:39:59 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 12
+16/07/2018 02:40:01 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 13
+16/07/2018 02:40:02 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 14
+16/07/2018 02:40:03 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 15
+16/07/2018 02:40:04 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 16
+16/07/2018 02:40:06 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 17
+16/07/2018 02:40:07 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 18
+16/07/2018 02:40:08 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 19
+16/07/2018 02:40:09 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 20
+16/07/2018 02:40:11 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 21
+16/07/2018 02:40:13 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 22
+16/07/2018 02:40:14 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 23
+16/07/2018 02:40:15 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 24
+16/07/2018 02:40:16 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 25
+16/07/2018 02:40:18 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 26
+16/07/2018 02:40:19 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 27
+16/07/2018 02:40:20 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 28
+16/07/2018 02:40:21 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 29
+16/07/2018 02:40:22 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 30
+16/07/2018 02:40:23 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 31
+16/07/2018 02:40:24 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 32
+16/07/2018 02:40:26 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 33
+16/07/2018 02:40:27 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 34
+16/07/2018 02:40:28 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 35
+16/07/2018 02:40:29 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 36
+16/07/2018 02:40:31 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 37
+16/07/2018 02:40:32 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 38
+16/07/2018 02:40:33 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 39
+16/07/2018 02:40:34 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 40
+16/07/2018 02:40:35 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 41
+16/07/2018 02:40:36 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 42
+16/07/2018 02:40:38 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 43
+16/07/2018 02:40:39 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 44
+16/07/2018 02:40:40 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 45
+16/07/2018 02:40:41 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 46
+16/07/2018 02:40:42 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 47
+16/07/2018 02:40:44 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 48
+16/07/2018 02:40:45 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 49
+16/07/2018 02:40:46 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 50
+16/07/2018 02:40:47 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 51
+16/07/2018 02:40:48 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 52
+16/07/2018 02:40:49 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 53
+16/07/2018 02:40:51 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 54
+16/07/2018 02:40:52 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 55
+16/07/2018 02:40:53 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 56
+16/07/2018 02:40:54 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 57
+16/07/2018 02:40:55 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 58
+16/07/2018 02:40:56 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 59
+16/07/2018 02:40:57 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 60
+16/07/2018 02:40:59 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 61
+16/07/2018 02:41:00 PM- root         - INFO     - Found Duplicate Record comparing to Database Content for CSV line no: 62
+16/07/2018 02:41:00 PM- root         - INFO     - Data uploaded to DB

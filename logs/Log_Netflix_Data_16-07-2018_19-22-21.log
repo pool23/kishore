@@ -1,0 +1,21 @@
+
+Purpose     : Extract data for Netflix
+
+        #####################     Change log   ###############################
+        ##------------------------------------------------------------------##
+        ##  Author              ##Date                ##Current Version     ##
+        ##------------------------------------------------------------------##
+        ## Moody's Analytics    ##15th July,2018      ##V1.0                ##
+        ##------------------------------------------------------------------##
+        ######################################################################
+        Date                   Version     Author      Description
+        15th July,2018       v 0.1       Deepak        Initial Code
+
+
+16/07/2018 07:22:21 PM- root         - INFO     - Starting the program execution
+
+16/07/2018 07:22:21 PM- urllib3.connectionpool - DEBUG    - Starting new HTTPS connection (1): www.peeringdb.com
+16/07/2018 07:22:24 PM- urllib3.connectionpool - DEBUG    - https://www.peeringdb.com:443 "GET /net/457 HTTP/1.1" 200 306354
+16/07/2018 07:22:25 PM- root         - INFO     - Data Saved to Local Drive
+16/07/2018 07:22:25 PM- root         - INFO     - Creating Unique Key
+16/07/2018 07:22:25 PM- root         - INFO     - Inserting Data to DB

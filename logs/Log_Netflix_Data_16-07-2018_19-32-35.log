@@ -1,0 +1,85 @@
+
+Purpose     : Extract data for Netflix
+
+        #####################     Change log   ###############################
+        ##------------------------------------------------------------------##
+        ##  Author              ##Date                ##Current Version     ##
+        ##------------------------------------------------------------------##
+        ## Moody's Analytics    ##15th July,2018      ##V1.0                ##
+        ##------------------------------------------------------------------##
+        ######################################################################
+        Date                   Version     Author      Description
+        15th July,2018       v 0.1       Deepak        Initial Code
+
+
+16/07/2018 07:32:35 PM- root         - INFO     - Starting the program execution
+
+16/07/2018 07:32:35 PM- urllib3.connectionpool - DEBUG    - Starting new HTTPS connection (1): www.peeringdb.com
+16/07/2018 07:32:37 PM- urllib3.connectionpool - DEBUG    - https://www.peeringdb.com:443 "GET /net/457 HTTP/1.1" 200 306354
+16/07/2018 07:32:39 PM- root         - INFO     - Data Saved to Local Drive
+16/07/2018 07:32:39 PM- root         - INFO     - Creating Unique Key
+16/07/2018 07:32:39 PM- root         - INFO     - Inserting Data to DB
+16/07/2018 07:32:39 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 0
+16/07/2018 07:32:40 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 1
+16/07/2018 07:32:41 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 2
+16/07/2018 07:32:41 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 3
+16/07/2018 07:32:42 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 4
+16/07/2018 07:32:43 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 5
+16/07/2018 07:32:43 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 6
+16/07/2018 07:32:44 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 7
+16/07/2018 07:32:45 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 8
+16/07/2018 07:32:46 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 9
+16/07/2018 07:32:46 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 10
+16/07/2018 07:32:47 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 11
+16/07/2018 07:32:48 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 12
+16/07/2018 07:32:48 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 13
+16/07/2018 07:32:49 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 14
+16/07/2018 07:32:50 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 15
+16/07/2018 07:32:50 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 16
+16/07/2018 07:32:51 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 17
+16/07/2018 07:32:52 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 18
+16/07/2018 07:32:53 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 19
+16/07/2018 07:32:53 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 20
+16/07/2018 07:32:54 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 21
+16/07/2018 07:32:55 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 22
+16/07/2018 07:32:55 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 23
+16/07/2018 07:32:56 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 24
+16/07/2018 07:32:57 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 25
+16/07/2018 07:32:57 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 26
+16/07/2018 07:32:58 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 27
+16/07/2018 07:32:59 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 28
+16/07/2018 07:32:59 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 29
+16/07/2018 07:33:00 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 30
+16/07/2018 07:33:01 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 31
+16/07/2018 07:33:01 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 32
+16/07/2018 07:33:02 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 33
+16/07/2018 07:33:03 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 34
+16/07/2018 07:33:03 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 35
+16/07/2018 07:33:04 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 36
+16/07/2018 07:33:05 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 37
+16/07/2018 07:33:05 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 38
+16/07/2018 07:33:06 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 39
+16/07/2018 07:33:07 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 40
+16/07/2018 07:33:07 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 41
+16/07/2018 07:33:08 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 42
+16/07/2018 07:33:09 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 43
+16/07/2018 07:33:09 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 44
+16/07/2018 07:33:10 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 45
+16/07/2018 07:33:11 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 46
+16/07/2018 07:33:11 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 47
+16/07/2018 07:33:12 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 48
+16/07/2018 07:33:13 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 49
+16/07/2018 07:33:13 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 50
+16/07/2018 07:33:14 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 51
+16/07/2018 07:33:15 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 52
+16/07/2018 07:33:15 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 53
+16/07/2018 07:33:16 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 54
+16/07/2018 07:33:17 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 55
+16/07/2018 07:33:17 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 56
+16/07/2018 07:33:18 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 57
+16/07/2018 07:33:19 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 58
+16/07/2018 07:33:19 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 59
+16/07/2018 07:33:20 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 60
+16/07/2018 07:33:21 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 61
+16/07/2018 07:33:22 PM- root         - INFO     - Data Insertion Query Executed for CSV line no: 62
+16/07/2018 07:33:22 PM- root         - INFO     - Data uploaded to DB
